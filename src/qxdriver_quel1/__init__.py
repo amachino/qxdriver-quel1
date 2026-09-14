@@ -9,7 +9,7 @@ import importlib.metadata
 from typing import TYPE_CHECKING
 
 try:
-    __version__ = importlib.metadata.version("qxdriver-quel1")
+    __version__ = importlib.metadata.version("qubex-driver-quel1")
 except importlib.metadata.PackageNotFoundError:
     __version__ = "0.0.0"
 
